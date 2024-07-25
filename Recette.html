@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalVibe - Recettes</title>
+    <link rel="stylesheet" href="Recette.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER début -->
+    <header class="container_header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo VitalVibe" class="logo-image">
+            <span class="vital">Vital</span><span class="vibe">Vibe</span>
+        </div>
+        <nav>
+            <ul>
+                <!-- Menu -->
+                <li><a href="Acceuil.html">Accueil</a></li>
+                <li><a href="Recette.html">Recettes</a></li>
+                <li><a href="IMC.html">IMC</a></li>
+                <li><a href="A_propos_de_nous.html">À propos de nous</a></li>
+                <li><a href="Témoignages.html">Témoignages</a></li>
+                <li><a href="abonnement.html">Abonnements</a></li>
+                <li><a href="Foire_aux_Question.html">FAQ</a></li>
+                <li><a href="se_connecter.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER fin -->
+
+    <main class="container">
+
+        <section class="hero">
+            <div class="hero-image">
+                <img src="images/recetteminceur.jpg" alt="Recettes Minceur">
+            </div>
+            <div class="hero-content">
+                <h1>Recettes minceur : plus de 1000 idées de recettes pour mincir !</h1>
+                <p>Explorez notre sélection de recettes minceur, conçues pour ceux qui souhaitent allier plaisir culinaire et bien-être. Chaque plat est élaboré pour offrir un équilibre parfait entre saveur et santé, permettant de se régaler tout en prenant soin de sa ligne.</p>
+            </div>
+        </section>
+
+         <!-- Catégorie de Recettes -->
+         <section class="recipes-overview" id="categories">
+            <!-- TITRE -->
+            <h2>Catégories de Recettes</h2>
+            <div class="recipe-category-container">
+                <div class="recipe-category">
+                    <!-- RECETTES -->
+                    <a href="Recette_vegtarienne.html">
+                        <img src="images/vegetariennecat.png" alt="Recettes Végétariennes" class="icon">
+                        <p>Végétariennes</p>
+                    </a>
+                </div>
+                <div class="recipe-category">
+                    <a href="Recette_fruit.html">
+                        <img src="images/fruitcat.png" alt="Recettes aux Fruits" class="icon">
+                        <p>Aux Fruits</p>
+                    </a>
+                </div>
+                <div class="recipe-category">
+                    <a href="Recette_perte_poids.html">
+                        <img src="images/pertedepoidscat.png" alt="Recettes Perte de Poids" class="icon">
+                        <p>Perte de Poids</p>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="recipes-overview" id="categorie">
+            <div class="recipe-category-container">
+                <div class="recipe-category">
+                    <a href="Recette_prise_masse.html">
+                        <img src="images/prisedemassecat.png" alt="Recettes Prise de Masse" class="icon">
+                        <p>Prise de Masse</p>
+                    </a>
+                </div>
+                <div class="recipe-category">
+                    <a href="Recette_sansgluten.html">
+                        <img src="images/sansglutencat.png" alt="Recettes Sans Gluten" class="icon">
+                        <p>Sans Gluten</p>
+                    </a>
+                </div>
+                <div class="recipe-category">
+                    <a href="Recette_sauce.html">
+                        <img src="images/sauces.jpg" alt="Recettes sauces" class="icon">
+                        <p>Sauces</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="popular-recipes-title">Nos Recettes Populaires</h2>
+        <p class="popular-recipes-description">Ces recettes minceur vous ont fait craquer. Entre le salé et le sucré, on ne sait plus où donner de la tête. Alors, vous savez ce qu’il vous reste à faire ? Enfilez le tablier, et passez aux fourneaux !</p>
+
+        <!-- Nos recettes populaires-->
+        <div class="recipes-grid">
+            <div class="recipe-item">
+                <a href="#vegetarian1">
+                    <img src="images/saladevegetarienne.png" alt="Salade Végétarienne">
+                    <p>Salade Végétarienne</p>
+                </a>
+            </div>
+            <div class="recipe-item">
+                <a href="#fruit1">
+                    <img src="images/saladefruit.png" alt="Salade de Fruits">
+                    <p>Salade de Fruits</p>
+                </a>
+            </div>
+            <div class="recipe-item">
+                <a href="#slimming1">
+                    <img src="images/soupeminceur.png" alt="Soupe Minceur">
+                    <p>Soupe Minceur</p>
+                </a>
+            </div>
+            <div class="recipe-item">
+                <a href="#gratin1">
+                    <img src="images/gratin1.png" alt="Gratin de Courgettes">
+                    <p>Gratin de Courgettes</p>
+                </a>
+            </div>
+            <div class="recipe-item">
+                <a href="#broccoli1">
+                    <img src="images/gratin2.png" alt="Gratin de Brocolis">
+                    <p>Gratin de Brocolis</p>
+                </a>
+            </div>
+            <div class="recipe-item">
+                <a href="#vinaigrette1">
+                    <img src="images/vinaigrette.png" alt="Vinaigrette Allégée">
+                    <p>Vinaigrette Allégée</p>
+                </a>
+            </div>
+            <div class="recipe-item">
+                <a href="#mayonnaise1">
+                    <img src="images/mayonnaise.png" alt="Mayonnaise Allégée">
+                    <p>Mayonnaise Allégée</p>
+                </a>
+            </div>
+            <div class="recipe-item">
+                <a href="#crepes1">
+                    <img src="images/crepes.png" alt="Crêpes Légères">
+                    <p>Crêpes Légères</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Détails des recettes -->
+        <section class="recipe-details" id="vegetarian1">
+            <div class="recipe-content">
+                <h3>Salade Végétarienne</h3>
+                <img src="images/saladevegetarienne.png" alt="Salade Végétarienne">
+                <h4>Ingrédients</h4>
+                <ul>
+                    <li>Laitue</li>
+                    <li>Tomates</li>
+                    <li>Concombre</li>
+                    <li>Olives</li>
+                    <li>Vinaigrette</li>
+                </ul>
+                <h4>Préparation</h4>
+                <p>Mélangez tous les ingrédients dans un grand bol et servez frais.</p>
+                <a href="#categories" class="close-btn">Fermer</a>
+            </div>
+        </section>
+
+        <section class="recipe-details" id="fruit1">
+            <div class="recipe-content">
+                <h3>Salade de Fruits</h3>
+                <img src="images/saladefruit.png" alt="Salade de Fruits">
+                <h4>Ingrédients</h4>
+                <ul>
+                    <li>Pomme</li>
+                    <li>Banane</li>
+                    <li>Raisins</li>
+                    <li>Orange</li>
+                    <li>Jus de Citron</li>
+                </ul>
+                <h4>Préparation</h4>
+                <p>Coupez tous les fruits en morceaux, mélangez-les dans un grand bol et arrosez de jus de citron.</p>
+                <a href="#categories" class="close-btn">Fermer</a>
+            </div>
+        </section>
+
+        <section class="recipe-details" id="slimming1">
+            <div class="recipe-content">
+                <h3>Soupe Minceur</h3>
+                <img src="images/soupeminceur.png" alt="Soupe Minceur">
+                <h4>Ingrédients</h4>
+                <ul>
+                    <li>Chou</li>
+                    <li>Carottes</li>
+                    <li>Poivrons</li>
+                    <li>Tomates</li>
+                    <li>Oignons</li>
+                </ul>
+                <h4>Préparation</h4>
+                <p>Faites mijoter tous les ingrédients dans de l'eau pendant 30 minutes.</p>
+                <a href="#categories" class="close-btn">Fermer</a>
+            </div>
+        </section>
+
+        <section class="recipe-details" id="gratin1">
+            <div class="recipe-content">
+                <h3>Gratin de Courgettes</h3>
+                <img src="images/gratin1.png" alt="Gratin de Courgettes">
+                <h4>Ingrédients</h4>
+                <ul>
+                    <li>Courgettes</li>
+                    <li>Crème</li>
+                    <li>Fromage râpé</li>
+                    <li>Sel</li>
+                    <li>Poivre</li>
+                </ul>
+                <h4>Préparation</h4>
+                <p>Cuire les courgettes, ajouter la crème et le fromage, puis gratiner au four.</p>
+                <a href="#categories" class="close-btn">Fermer</a>
+            </div>
+        </section>
+
+        <section class="recipe-details" id="broccoli1">
+            <div class="recipe-content">
+                <h3>Gratin de Brocolis</h3>
+                <img src="images/gratin2.png" alt="Gratin de Brocolis">
+                <h4>Ingrédients</h4>
+                <ul>
+                    <li>Brocolis</li>
+                    <li>Crème</li>
+                    <li>Fromage râpé</li>
+                    <li>Sel</li>
+                    <li>Poivre</li>
+                </ul>
+                <h4>Préparation</h4>
+                <p>Cuire les brocolis, ajouter la crème et le fromage, puis gratiner au four.</p>
+                <a href="#categories" class="close-btn">Fermer</a>
+            </div>
+        </section>
+
+        <section class="recipe-details" id="vinaigrette1">
+            <div class="recipe-content">
+                <h3>Vinaigrette Allégée</h3>
+                <img src="images/vinaigrette.png" alt="Vinaigrette Allégée">
+                <h4>Ingrédients</h4>
+                <ul>
+                    <li>Yaourt</li>
+                    <li>Moutarde</li>
+                    <li>Jus de Citron</li>
+                    <li>Sel</li>
+                    <li>Poivre</li>
+                </ul>
+                <h4>Préparation</h4>
+                <p>Mélangez tous les ingrédients dans un bol.</p>
+                <a href="#categories" class="close-btn">Fermer</a>
+            </div>
+        </section>
+
+        <section class="recipe-details" id="mayonnaise1">
+            <div class="recipe-content">
+                <h3>Mayonnaise Allégée</h3>
+                <img src="images/mayonnaise.png" alt="Mayonnaise Allégée">
+                <h4>Ingrédients</h4>
+                <ul>
+                    <li>Yaourt</li>
+                    <li>Moutarde</li>
+                    <li>Jus de Citron</li>
+                    <li>Sel</li>
+                    <li>Poivre</li>
+                </ul>
+                <h4>Préparation</h4>
+                <p>Mélangez tous les ingrédients dans un bol.</p>
+                <a href="#categories" class="close-btn">Fermer</a>
+            </div>
+        </section>
+
+        <section class="recipe-details" id="crepes1">
+            <div class="recipe-content">
+                <h3>Crêpes Légères</h3>
+                <img src="images/crepes.png" alt="Crêpes Légères">
+                <h4>Ingrédients</h4>
+                <ul>
+                    <li>Farine</li>
+                    <li>Lait</li>
+                    <li>Œufs</li>
+                    <li>Sel</li>
+                    <li>Sucre</li>
+                </ul>
+                <h4>Préparation</h4>
+                <p>Mélangez la farine, le lait, les œufs, le sel et le sucre. Faites cuire les crêpes dans une poêle chaude.</p>
+                <a href="#categories" class="close-btn">Fermer</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER début -->
+    <footer class="container-footer">
+        <h1>Contact nous</h1>
+        <div class="contact">
+            <div class="contact-item">
+                <h3>VitalVibe</h3>
+                <p>88, Rue Kent<br>Gatineau, Québec<br>J0A 1A0</p>
+            </div>
+            <div class="contact-item">
+                <h3>Nous joindre</h3>
+                <p>514-892-6058<br>613-587-987</p>
+            </div>
+            <div class="contact-item">
+                <h3>Date de création</h3>
+                <p>le 01 juillet 2024</p>
+            </div>
+            <div class="contact-item">
+                <h3>Suivez-nous</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 <a href="https://github.com/AbileneM/VitalVibe.git">VitalVibe</a> Tous droits réservés. </p>
+    </footer>
+     <!-- FOOTER fin -->
+</body>
+</html>

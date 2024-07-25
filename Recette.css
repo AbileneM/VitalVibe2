@@ -1,0 +1,382 @@
+/* Enlever le soulignement des liens et au survol */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6f4e37; /* Couleur de survol, si nécessaire */
+}
+
+/* HEADER début */
+.container_header {
+    max-width: 1700px;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0 15px;
+}
+
+.header-container {
+    margin: 0 15px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-image {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .vital {
+    color: #6f4e37;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header .vibe {
+    color: #2e8b57;
+    font-size: 24px;
+    font-weight: 700;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #6f4e37;
+}
+/* HEADER fin */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "lato", "Open Sans", sans-serif;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+    
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-container, .container-footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container nav ul li {
+    margin: 0 15px;
+}
+
+.header-container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 5px;
+}
+
+.breadcrumb span {
+    margin-right: 5px;
+    color: #6f4e37;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f4f4;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero-content {
+   
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    color: #6f4e37; /* couleur brune */
+    font-size: 2em;
+}
+
+.hero-content p {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.recipes-overview h2 {
+    text-align: center;
+    color: #6f4e37; /* couleur brune */
+    font-size: 2em; 
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.recipe-category-container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.recipe-category {
+    text-align: center;
+}
+
+.recipe-category img.icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.recipe-category img:hover {
+    transform: scale(1.1);
+}
+
+.recipe-category p {
+    color: #2e8b57; /* couleur verte */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.popular-recipes-title {
+    text-align: center;
+    color: #6f4e37; /* couleur brune */
+    font-size: 2.5em; 
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.popular-recipes-description {
+    text-align: center;
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.recipes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recipe-item {
+    width: calc(25% - 20px);
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.recipe-item:hover {
+    transform: translateY(-5px);
+}
+
+.recipe-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.recipe-item p {
+    margin: 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+    color: #2e8b57; /* couleur verte */
+    font-weight: bold;
+}
+
+.recipe-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.recipe-details {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.recipe-details:target {
+    display: block;
+}
+
+.recipe-details h3 {
+    color: #6f4e37; /* couleur brune */
+}
+
+.recipe-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.recipe-details h4 {
+    color: #2e8b57; /* couleur verte */
+    margin-top: 20px;
+}
+
+.recipe-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-details ul li {
+    background: #f0f0f0;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.recipe-details p {
+    margin-top: 10px;
+}
+
+.recipe-content {
+    margin-bottom: 50px;
+}
+
+.close-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6f4e37;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* FOOTER début */
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    background-image: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.container-footer p {
+    margin: 0;
+    font-size: 16px;
+    color:black;
+}
+ 
+ 
+ 
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+ 
+.contact-item {
+    max-width: 200px;
+}
+ 
+.contact-item h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+ 
+.contact-item p {
+    color: black;
+    margin: 0;
+}
+ 
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+ 
+.social-icon {
+    font-size: 24px;
+    color: #2e8b57;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+ 
+.social-icon:hover {
+    color: #6f4e37;
+}
+/* FOOTER fin */
+has context menu

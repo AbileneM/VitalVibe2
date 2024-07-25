@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un compte</title>
+    <link rel="stylesheet" href="./creer_un_compte.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <!-- HEADER début -->
+        <header class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo VitalVibe" class="logo-image">
+                <span class="vital">Vital</span><span class="vibe">Vibe</span>
+            </div>
+            <nav>
+                <ul>
+                    <!-- Menu -->
+                    <li><a href="Acceuil.html">Accueil</a></li>
+                    <li><a href="Recette.html">Recettes</a></li>
+                    <li><a href="IMC.html">IMC</a></li>
+                    <li><a href="A_propos_de_nous.html">À propos de nous</a></li>
+                    <li><a href="Témoignages.html">Témoignages</a></li>
+                    <li><a href="abonnement.html">Abonnements</a></li>
+                    <li><a href="Foire_aux_Question.html">FAQ</a></li>
+                    <li><a href="se_connecter.html">Inscription</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- HEADER fin -->
+    </div>
+    <main>
+        <div class="wrapper">
+            <form action="#">
+                <h1>Créer un compte</h1>
+                <div class="input-box">
+                    <label for="prenom"></label>
+                    <input type="text" id="prenom" placeholder="Prénom" required>
+                </div>
+                <div class="input-box">
+                    <label for="nom"></label>
+                    <input type="text" id="nom" placeholder="Nom" required>
+                </div>
+                <div class="input-box">
+                    <label for="email"></label>
+                    <input type="text" id="courriel" placeholder="Courriel" required>
+                    <i id="envelope" class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <label for="utilisateur"></label>
+                    <input type="text" id="utilisateur" placeholder="Nom d'utlisateur" required>
+                </div>
+                <div class="input-box">
+                    <label for="password"></label>
+                    <input type="password" id="password" placeholder="Mot de passe" required>
+                    <i id="eye" class="fa-solid fa-eye-slash"></i>
+                </div>
+                <div class="input-box">
+                    <label for="confirm_password"></label>
+                    <input type="password" id="confirm_password" placeholder="Confirmer le mot de passe" required>
+                    <i id="eyes" class="fa-solid fa-eye-slash"></i>
+                </div>
+                <button type="submit" class="btn">Créer un compte</button>
+                <p>En cliquant sur le bouton <span>&laquo; Créer un compte &raquo;</span> vous accepetez les conditions
+                    d'utilisations et les politiques de confidentilité de vitalvibe</p>
+            </form>
+            <div class="utilisateur_existant">
+                <p>Vous avez un compte? <a href="./se_connecter.html">Connectez-vous.</a></p>
+            </div>
+        </div>
+    </main>
+    <footer class="container-footer">
+        <h1>Contact nous</h1>
+        <div class="contact">
+            <div class="contact-item">
+                <h3>VitalVibe</h3>
+                <p>88, Rue Kent<br>Gatineau, Québec<br>J0A 1A0</p>
+            </div>
+            <div class="contact-item">
+                <h3>Nous joindre</h3>
+                <p>514-892-6058<br>613-587-987</p>
+            </div>
+            <div class="contact-item">
+                <h3>Date de création</h3>
+                <p>le 01 juillet 2024</p>
+            </div>
+            <div class="contact-item">
+                <h3>Suivez-nous</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 <a href="https://github.com/AbileneM/VitalVibe.git">VitalVibe</a> Tous droits réservés. </p>
+    </footer>
+    <!-- FOOTER fin -->
+</body>
+
+</html>

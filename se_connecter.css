@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+}
+
+body {
+    background: url('./images/program.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* HEADER début */
+.header-container {
+    margin: 0 15px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-image {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .vital {
+    color: #6f4e37;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header .vibe {
+    color: #2e8b57;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #6f4e37;
+}
+
+/*  HEADER fin */
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 80vh;
+    padding: 20px 20px 20px 20px;
+
+}
+
+form {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    min-width: 600px;
+}
+
+.wrapper {
+    width: 600px;
+    height: 500px;
+    background: #f2f2f2;
+    color: black;
+    border-radius: 10px;
+}
+
+.wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(15, 14, 14, 0.942);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transform: translate(-50%);
+    font-size: 16px;
+}
+
+#eye {
+    cursor: pointer;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-family: 14.5px;
+    margin: -25px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: black;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    font-size: 14px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600px;
+}
+
+.wrapper .media-social p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.media-social p i {
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 100%;
+    border-color: #333;
+    background-color: white;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+#btn {
+    cursor: pointer;
+}
+
+.register-link p a {
+    text-decoration: none;
+
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+/* FOOTER début */
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    width: 100%;
+    background-image: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-footer p {
+    margin: 0;
+    font-size: 16px;
+    color:black;
+}
+
+
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    max-width: 200px;
+}
+
+.contact-item h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    color: black;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #2e8b57;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #6f4e37;
+}
+/* FOOTER fin */

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="./IMC.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo VitalVibe" class="logo-image">
+            <span class="vital">Vital</span><span class="vibe">Vibe</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Acceuil.html">Accueil</a></li>
+            <li><a href="Recette.html">Recettes</a></li>
+            <li><a href="IMC.html">IMC</a></li>
+            <li><a href="A_propos_de_nous.html">À propos de nous</a></li>
+            <li><a href="Témoignages.html">Témoignages</a></li>
+            <li><a href="abonnement.html">Abonnements</a></li>
+            <li><a href="Foire_aux_Question.html">FAQ</a></li>
+            <li><a href="se_connecter.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="imc-section ">
+            <div class="image-imc">
+                <img src="./images/imc.png" alt="visualisation de l'imc">
+            </div>
+        <div class="imc-calculator">
+            <h2>Calcul de l'IMC</h2>
+            <form id="imcForm">
+                <label for="weight">Poids (kg):</label>
+                <input type="number" id="weight" name="weight" required>
+                <label for="height">Taille (cm):</label>
+                <input type="number" id="height" name="height" required>
+                <button type="submit" onclick="calculateIMC()">Calculer</button>
+            </form>
+            <p id="imcResult"></p>
+        </div>
+        </section>
+        <section>
+            <div>
+                <h2>
+                    L’évaluation du poids santé s’effectue en utilisant l’indice de masse corporelle (IMC) et le tour de taille.
+                    Une fois établi, il permet d’évaluer le risque de développer certaines maladies à long terme.
+                    Un surplus de poids, tout comme un poids insuffisant, peut entraîner certains problèmes de santé
+                </h2>
+            </div>
+        </section>
+        <section class="Detail-imc">
+            <div class="detail1">
+                <h3>Entre 18,5 et 25</h3>
+                <p>Votre IMC se situe dans l’intervalle santé, vous n’avez pas à vous inquiéter au sujet de votre poids.
+                     Assurez-vous de maintenir cette situation par de saines habitudes de vie telles
+                     qu’une alimentation équilibrée et de l’activité physique.</p>
+                 <h3>Entre 25 et 30</h3>
+                     <p>Votre poids pourrait vous exposer à des problèmes de santé comme les maladies cardiaques
+                        et les accidents vasculaires cérébraux. Consultez votre médecin.
+                         Le simple fait de perdre quelques livres en adoptant une alimentation saine et
+                         en bougeant davantage pourrait contribuer à réduire les risques..</p>
+                <h3>Superieur a 30</h3>
+                          <p>Votre IMC se situe dans l’intervalle santé,
+                             vous n’avez pas à vous inquiéter au sujet de votre poids.
+                               Assurez-vous de maintenir cette situation par de saines habitudes de vie telles
+                               qu’une alimentation équilibrée et de l’activité physique.</p>
+
+            </div>
+            <div class="Detail2">
+                <p> L’IMC n’est pas une unité de mesure absolue,
+                    mais bien un outil très utile. Il faut savoir que le calcul de l’IMC ne s’applique pas :</p>
+                <ul>
+                    <li>aux adolescents;</li>
+                    <li>aux nourrisons;</li>
+                    <li>aux enfants;</li>
+                    <li>aux femmes enceintes ou allaitantes;</li>
+                    <li>aux athelete ;</li>
+                    <li>aux etudiants ;</li>
+                </ul>
+                <p>L’IMC et le contenu de cette page ne constituent pas des consultations, diagnostics ou 
+                    opinions médicales et sont à titre informatif seulement.
+                     Consultez un professionnel de la santé pour obtenir un diagnostic précis de votre santé.</p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-footer">
+        <h1>Contact nous</h1>
+        <div class="contact">
+            <div class="contact-item">
+                <h3>VitalVibe</h3>
+                <p>88, Rue Kent<br>Gatineau, Québec<br>J0A 1A0</p>
+            </div>
+            <div class="contact-item">
+                <h3>Nous joindre</h3>
+                <p>514-892-6058<br>613-587-987</p>
+            </div>
+            <div class="contact-item">
+                <h3>Date de création</h3>
+                <p>le 01 juillet 2024</p>
+            </div>
+            <div class="contact-item">
+                <h3>Suivez-nous</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 <a href="https://github.com/AbileneM/VitalVibe.git">VitalVibe</a> Tous droits réservés. </p>
+    </footer>
+    <!-- FOOTER fin -->
+</body>
+</html>
