@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz des Recettes</title>
+    <link rel="stylesheet" href="jeu.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- HEADER début -->
+        <header class="container">
+            <div class="logo">
+                <img src="Images/logo.png" alt="Logo VitalVibe" class="logo-image">
+                <span class="vital">Vital</span><span class="vibe">Vibe</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Acceuil.html">Accueil</a></li>
+                    <li><a href="Recette.html">Recettes</a></li>
+                    <li><a href="IMC.html">IMC</a></li>
+                    <li><a href="A_propos_de_nous.html">À propos de nous</a></li>
+                    <li><a href="Témoignages.html">Témoignages</a></li>
+                    <li><a href="abonnement.html">Abonnements</a></li>
+                    <li><a href="Foire_aux_Question.html">FAQ</a></li>
+                    <li><a href="jeu.html">Quiz</a></li>
+                    <li><a href="se_connecter.html">Inscription</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="quiz-title">Quiz des Recettes</h1>
+
+        <div class="quiz-box">
+            <h2 id="question">Question s'affichera ici</h2>
+            <div class="options">
+                <button class="option-btn" onclick="selectAnswer(0)">Option 1</button>
+                <button class="option-btn" onclick="selectAnswer(1)">Option 2</button>
+                <button class="option-btn" onclick="selectAnswer(2)">Option 3</button>
+                <button class="option-btn" onclick="selectAnswer(3)">Option 4</button>
+            </div>
+            <button id="next-btn" onclick="nextQuestion()">Suivant</button>
+        </div>
+
+        <div id="result-container" style="display: none;">
+            <h2>Votre score : <span id="score">0</span> / <span id="total">0</span></h2>
+            <button id="restart-btn" onclick="restartQuiz()">Recommencer</button>
+        </div>
+    </div>
+
+    <script src="jeu.js"></script>
+
+    <!-- FOOTER début -->
+    <footer class="container-footer">
+        <h1>Contact nous</h1>
+        <div class="contact">
+            <div class="contact-item">
+                <h3>VitalVibe</h3>
+                <p>88, Rue Kent<br>Gatineau, Québec<br>J0A 1A0</p>
+            </div>
+            <div class="contact-item">
+                <h3>Nous joindre</h3>
+                <p>514-892-6058<br>613-587-987</p>
+            </div>
+            <div class="contact-item">
+                <h3>Date de création</h3>
+                <p>le 01 juillet 2024</p>
+            </div>
+            <div class="contact-item">
+                <h3>Suivez-nous</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 <a href="https://github.com/AbileneM/VitalVibe.git">VitalVibe</a> Tous droits réservés.</p>
+    </footer>
+    <!-- FOOTER fin -->
+</body>
+</html>
