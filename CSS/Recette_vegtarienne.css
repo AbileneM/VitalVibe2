@@ -210,7 +210,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('images/contact.jpg');
+    background-image: url('../Images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

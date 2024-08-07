@@ -132,7 +132,7 @@ main {
     padding: auto;
     gap: 30px; 
 
-    background-image: url('./images/plan.jpg'); 
+    background-image: url('../Images/plan.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -181,7 +181,7 @@ footer {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('images/contact.jpg');
+    background-image: url('../Images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

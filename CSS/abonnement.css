@@ -75,7 +75,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 40px;
     background-color: #f2f2f2;
-    background-image: url('./images/abonnementjpg.jpg');
+    background-image: url('../Images/abonnementjpg.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -151,7 +151,7 @@ footer {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('images/contact.jpg');
+    background-image: url('../Images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

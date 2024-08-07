@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url('./images/program.png');
+    background: url('../Images/program.png');
     background-size: cover;
     background-position: center;
 }
@@ -226,7 +226,7 @@ footer {
     padding: 50px;
     margin-top: 20px;
     width: 100%;
-    background-image: url('images/contact.jpg');
+    background-image: url('../Images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
