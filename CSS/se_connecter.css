@@ -6,7 +6,15 @@
     box-sizing: border-box;
     font-family: "open sans", sans-serif;
 }
-
+.text-danger {
+   color:  red;
+}
+.text-success {
+   color:  green;
+}
+small{
+    margin: 20px;
+}
 body {
     background: url('./images/program.png');
     background-size: cover;
@@ -159,6 +167,7 @@ form {
 }
 
 .remember-forgot a {
+    
     font-size: 14px;
     margin-right: 20px;
     text-decoration: none;
