@@ -103,12 +103,12 @@ main {
 #imcForm {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    background-color: green; 
+    gap: 14px;
+    background-color: rgb(230, 236, 230); 
     border-radius: 15px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    padding: 20px;
-    width: 180px;
+    padding: 26px;
+    width: 160px;
     text-align: left;
 }
 
