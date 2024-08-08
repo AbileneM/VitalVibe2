@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&display=swap');
 
 body{
     margin: 0;
@@ -113,7 +113,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    background-color: green; 
+    background-color: #45987e; 
     border-radius: 15px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     padding: 20px;
@@ -134,15 +134,37 @@ main {
 #imcForm button {
     padding: 10px;
     font-size: 1rem;
-    background-color: #007bff;
+    background-color: #006400; /* Vert foncé */
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
 }
 
 #imcForm button:hover {
-    background-color: #0056b3;
+    background-color: #6f4e37; /* Marron lors du survol */
 }
+
+#imcMessage {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#imcMessage.success {
+    background-color: #4CAF50; /* Vert pour succès */
+    color: white;
+}
+
+#imcMessage.error {
+    background-color: #f44336; /* Rouge pour erreur */
+    color: white;
+}
+
 .Detail-imc {
     display: flex;
     justify-content: center;
@@ -249,6 +271,7 @@ footer {
 .social-icon:hover {
     color: #6f4e37;
 }
+
 /* FOOTER fin */
 
 @media screen and (max-width: 1200px) {
