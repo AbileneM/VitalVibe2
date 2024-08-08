@@ -190,6 +190,41 @@ text-align: center;
 p {
     line-height: 1.5; 
 }
+
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.section4 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajustez selon vos besoins */
+}
+
+.contenu {
+    display: flex;
+    width: 200%; /* 100% pour chaque groupe d'images */
+    transition: transform 1s ease-in-out;
+}
+
+.defile {
+    display: flex;
+    flex: 1 0 33.33%; /* Pour afficher 3 images à la fois */
+    width: 33.33%;
+}
+
+.defile img {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 1200px) {
     header {
     padding: 10px;

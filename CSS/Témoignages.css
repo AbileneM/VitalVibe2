@@ -220,6 +220,25 @@ img {
 .button:hover {
     background-color: #6f4e37;
 }
+#ecriture {
+    font-size: 3em;
+    font-weight: bold;
+    border-right: 2px solid black;
+    width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes blink {
+    0% { border-color: transparent; }
+    50% { border-color: black; }
+    100% { border-color: transparent; }
+}
+
+#tecriture {
+    animation: blink 1s step-end infinite;
+}
+
 
 @media screen and (max-width: 1200px) {
     header {
@@ -230,8 +249,7 @@ img {
     header {
     padding: 20px;
     }
-}
-             
+}           
 @media screen  and (max-width: 768px) {
     
     main, nav ul, header{
