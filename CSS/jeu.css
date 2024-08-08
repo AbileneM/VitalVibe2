@@ -29,14 +29,21 @@ body{
     }
 }
 
-/* HEADER ajustements */
+/* HEADER début */
+.header-container {
+    margin: 0px;
+    margin-bottom: 10px;
+    
+}
+
 header {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(242, 242, 242, 0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px 30px;
+    padding: 10px 15px;
     width: 100%;
     box-sizing: border-box;
     position: fixed;
@@ -45,6 +52,7 @@ header {
     right: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
+    height: 40px;
 }
 
 header .logo {
@@ -91,6 +99,7 @@ nav ul li a:hover {
     color: #2e8b57;
 }
 
+/*  HEADER fin */
 /* Ajout d'un espacement entre le header et le contenu */
 .quiz-container {
     text-align: center;
