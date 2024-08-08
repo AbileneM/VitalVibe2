@@ -8,6 +8,12 @@ body{
     color: #333;
     
 }
+.text-success{
+    color: #2e8b57;
+}
+.text-danger{
+    color: red;
+}
 body {
     background: url('../Images/program.png');
     background-size: cover;
