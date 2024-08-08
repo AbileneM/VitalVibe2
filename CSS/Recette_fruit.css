@@ -1,81 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+ 
 body{
     margin: 0;
     font-family: "lato", "Open Sans", sans-serif;
     padding: 0;
     background-color: #fafafa;
     color: #333;
+   
 }
-
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 15px;
+    margin-bottom: 10px;
+    padding: 0 px;
 }
-/* HEADER ajustements */
+ 
+/* HEADER début */
+.header-container {
+    margin: 0 px;
+    margin-bottom: 10px;
+    max-width: 1900px;
+}
+ 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(242, 242, 242, 0.95);
+    background-color: #f2f2f2;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px 30px;
-    width: 100%;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    backdrop-filter: blur(10px);
+    padding: 10px 0;
 }
-
+ 
+.header-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
 header .logo {
     display: flex;
     align-items: center;
 }
-
+ 
 header .logo-image {
-    height: 40px;
+    height: 50px;
     margin-right: 10px;
 }
-
+ 
 header .vital {
     color: #6f4e37;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
 }
-
+ 
 header .vibe {
     color: #2e8b57;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
 }
-
+ 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-
+ 
 nav ul li {
-    margin-left: 15px;
+    margin-left: 20px;
 }
-
+ 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #333; /* Changer la couleur du texte du menu à noir */
     font-weight: 700;
     transition: color 0.3s;
 }
-
+ 
 nav ul li a:hover {
-    color: #2e8b57;
+    color: #6f4e37;
 }
 /* HEADER fin */
-
+ 
+ 
 .hero {
     color: #fff;
     text-align: center;
@@ -86,28 +93,28 @@ nav ul li a:hover {
     margin-bottom: 20px;
     background-color: #2e8b57; /* Ajoute un fond vert */
 }
-
+ 
 .hero h1 {
     font-size: 2.5em;
     margin: 0;
 }
-
+ 
 .hero p {
     font-size: 1.2em;
     margin: 20px 0;
 }
-
+ 
 .recipes-preview {
     padding: 20px 0;
     background-color: #fafafa;
 }
-
+ 
 .recipes-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
-
+ 
 .recipe-item {
     width: calc(33.333% - 20px);
     background-color: #fff;
@@ -116,43 +123,43 @@ nav ul li a:hover {
     overflow: hidden;
     transition: transform 0.3s;
 }
-
+ 
 .recipe-item:hover {
     transform: translateY(-5px);
 }
-
+ 
 .recipe-item img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
-
+ 
 .recipe-item p {
     margin: 0;
     padding: 10px;
     background-color: #f8f8f8;
     text-align: center;
 }
-
+ 
 .recipe-item a {
     text-decoration: none;
     color: inherit;
 }
-
+ 
 .recipe-details {
     padding: 20px;
     text-align: left;
     display: none; /* cacher par défaut */
 }
-
+ 
 .recipe-details:target {
     display: block; /* apparaitre */
 }
-
+ 
 .recipe-details h2 {
     margin-top: 0;
 }
-
+ 
 .back-link {
     display: inline-block;
     margin-top: 20px;
@@ -160,36 +167,34 @@ nav ul li a:hover {
     text-decoration: none;
     font-weight: 700;
 }
-
+ 
 .back-link:hover {
     text-decoration: underline;
 }
-
-
-
 .arrow-container {
     position: absolute;
-    top: 10%; 
-    left: 10px; 
+    top: 10%; /* Position it just below the header */
+    left: 10px; /* Adjust this value to position the arrow closer to or farther from the left edge */
 }
-
+ 
 .arrow-link {
     display: inline-block;
-    color: #2e8b57; 
-    font-size: 3em; 
+    color: #2e8b57; /* Color of the arrow */
+    font-size: 3em; /* Size of the arrow */
     transition: color 0.3s, transform 0.3s;
     background-color: #f2f2f2;
     padding: 10px;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+ 
 .arrow-link:hover {
-    color: #6f4e37;
-    transform: scale(1.1); 
+    color: #6f4e37; /* Color of the arrow on hover */
+    transform: scale(1.1); /* Slightly increase the size on hover */
     background-color: #e0e0e0;
 }
-
+ 
+ 
 /* FOOTER début */
 .footer-container {
     margin: 0 auto;
@@ -197,63 +202,68 @@ nav ul li a:hover {
     background-color: #333;
     color: black;
     padding: 20px 0;
-    
+   
 }
-
+ 
 .container-footer {
     background-color: #333;
     color: black;
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('../Images/contact.jpg');
+    background-image: url('../images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
+ 
+ 
 .contact {
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
 }
-
+ 
 .contact-item {
     max-width: 200px;
 }
-
+ 
 .contact-item h3 {
     color: black;
     margin-bottom: 10px;
 }
-
+ 
 .contact-item p {
     color: black;
     margin: 0;
 }
-
+ 
 .social-icon {
     font-size: 24px;
     color: #2e8b57;
     margin: 0 5px;
     transition: color 0.3s;
 }
-
+ 
 .social-icon:hover {
     color: #6f4e37;
 }
-
+ 
 .container-footer p {
     margin: 0;
     font-size: 16px;
     color: black;
 }
 /* FOOTER fin */
+img{
+    max-width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
     header {
     padding: 10px;
     }
-    }
+}
 @media screen and (max-width: 992px) {
     header {
     padding: 20px;
@@ -261,11 +271,8 @@ nav ul li a:hover {
 }
              
 @media screen  and (max-width: 768px) {
+    
     main{
-        
-        margin:0 100px;
-    }
-    main, nav ul{
         flex-basis: 50%;
         align-items: center;
         margin:0 40px;

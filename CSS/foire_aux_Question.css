@@ -7,7 +7,7 @@ body{
     padding: 0;
     background-color: #fafafa;
     color: #333;
-    
+    position: static;
 }
 .container {
     max-width: 1900px;
@@ -84,6 +84,9 @@ nav ul li a:hover {
 
 /*  HEADER fin */
 
+.h1{
+    margin-top: 60px;
+}
 main h1{
     display: flex;
     justify-content: center;
@@ -133,7 +136,7 @@ footer {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('../Images/contact.jpg');
+    background-image: url('../images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -188,7 +191,7 @@ footer {
     header {
     padding: 10px;
     }
-    }
+}
 @media screen and (max-width: 992px) {
     header {
     padding: 20px;
@@ -196,11 +199,8 @@ footer {
 }
              
 @media screen  and (max-width: 768px) {
+    
     main{
-        
-        margin:0 100px;
-    }
-    main, nav ul{
         flex-basis: 50%;
         align-items: center;
         margin:0 40px;

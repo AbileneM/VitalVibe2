@@ -8,15 +8,21 @@ a:hover {
     text-decoration: none;
     color: #6f4e37; /* Couleur de survol, si nécessaire */
 }
+/* HEADER début */
+.header-container {
+    margin: 0px;
+    
+    
+}
 
-/* HEADER ajustements */
 header {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(242, 242, 242, 0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px 30px;
+    padding: 10px 15px;
     width: 100%;
     box-sizing: border-box;
     position: fixed;
@@ -25,6 +31,8 @@ header {
     right: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
+    height: 40px;
+    
 }
 
 header .logo {
@@ -70,8 +78,8 @@ nav ul li a {
 nav ul li a:hover {
     color: #2e8b57;
 }
-/* HEADER fin */
 
+/*  HEADER fin */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
@@ -84,9 +92,10 @@ body{
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 15px;
+    margin-top: 50px;
 }
 
 .breadcrumb {
@@ -299,7 +308,7 @@ footer {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('../Images/contact.jpg');
+    background-image: url('../images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -352,7 +361,7 @@ footer {
     header {
     padding: 10px;
     }
-    }
+}
 @media screen and (max-width: 992px) {
     header {
     padding: 20px;
@@ -360,11 +369,8 @@ footer {
 }
              
 @media screen  and (max-width: 768px) {
+    
     main{
-        
-        margin:0 100px;
-    }
-    main, nav ul{
         flex-basis: 50%;
         align-items: center;
         margin:0 40px;
