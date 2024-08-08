@@ -13,16 +13,12 @@ body{
     padding: 0 40px;
 }
 
-<<<<<<< HEAD
 /* HEADER début */
 .header-container {
     margin: 0 ;
     margin-bottom: 10px;
 }
 
-=======
-/* HEADER ajustements */
->>>>>>> 725cdee806a3878d4ffd019a323fd368355837e8
 header {
     display: flex;
     justify-content: space-between;

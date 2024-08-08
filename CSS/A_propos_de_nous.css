@@ -9,35 +9,19 @@ body{
     
 }
 
-<<<<<<< HEAD
 /* HEADER début */
 .header-container {
     margin: 0 ;
     margin-bottom: 10px;
 }
 
-=======
-/* HEADER ajustements */
->>>>>>> 725cdee806a3878d4ffd019a323fd368355837e8
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(242, 242, 242, 0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
     padding: 5px 0;
-=======
-    padding: 10px 30px;
-    width: 100%;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    backdrop-filter: blur(10px);
->>>>>>> 725cdee806a3878d4ffd019a323fd368355837e8
 }
 
 header .logo {

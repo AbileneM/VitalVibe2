@@ -9,15 +9,12 @@ body{
     
 }
 /* HEADER début */
-<<<<<<< HEAD
 .header-container {
     margin: 0 ;
     margin-right:8px;
     margin-bottom: 10px;
 }
 
-=======
->>>>>>> 725cdee806a3878d4ffd019a323fd368355837e8
 header {
     display: flex;
     justify-content: space-between;
@@ -76,11 +73,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-<<<<<<< HEAD
     color:#2e8b57;
-=======
-    color: #2e8b57;
->>>>>>> 725cdee806a3878d4ffd019a323fd368355837e8
 }
 /*  HEADER fin */
 
