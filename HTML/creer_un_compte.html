@@ -7,6 +7,7 @@
     <title>Créer un compte</title>
     <link rel="stylesheet" href="../CSS/creer_un_compte.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="../JS/creer_un_compte.js" async></script>
 </head>
 
 <body>
@@ -26,6 +27,7 @@
                     <li><a href="A_propos_de_nous.html">À propos de nous</a></li>
                     <li><a href="Témoignages.html">Témoignages</a></li>
                     <li><a href="abonnement.html">Abonnements</a></li>
+                    <li><a href="jeu.html">Quiz</a></li>
                     <li><a href="Foire_aux_Question.html">FAQ</a></li>
                     <li><a href="jeu.html">Quiz</a></li>
                     <li><a href="se_connecter.html">Inscription</a></li>
@@ -36,33 +38,39 @@
     </div>
     <main>
         <div class="wrapper">
-            <form action="#">
+            <form action="#" id="loginForm" method="POST">
                 <h1>Créer un compte</h1>
                 <div class="input-box">
                     <label for="prenom"></label>
-                    <input type="text" id="prenom" placeholder="Prénom" required>
+                    <input type="text" name="prenom" placeholder="Prénom" required>
+                    <small></small>
                 </div>
                 <div class="input-box">
                     <label for="nom"></label>
-                    <input type="text" id="nom" placeholder="Nom" required>
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <small></small>
                 </div>
                 <div class="input-box">
                     <label for="email"></label>
-                    <input type="text" id="courriel" placeholder="Courriel" required>
+                    <input type="text" name="email" placeholder="Courriel" required>
+                    <small></small>
                     <i id="envelope" class="fa-solid fa-envelope"></i>
                 </div>
                 <div class="input-box">
                     <label for="utilisateur"></label>
-                    <input type="text" id="utilisateur" placeholder="Nom d'utlisateur" required>
+                    <input type="text" name="utilisateur" placeholder="Nom d'utlisateur" required>
+                    <small></small>
                 </div>
                 <div class="input-box">
                     <label for="password"></label>
-                    <input type="password" id="password" placeholder="Mot de passe" required>
+                    <input type="password" name="password" placeholder="Mot de passe" required>
+                   <small></small>
                     <i id="eye" class="fa-solid fa-eye-slash"></i>
                 </div>
                 <div class="input-box">
                     <label for="confirm_password"></label>
-                    <input type="password" id="confirm_password" placeholder="Confirmer le mot de passe" required>
+                    <input type="password" name="confirm_password" placeholder="Confirmer le mot de passe" required>
+                    <small></small>
                     <i id="eyes" class="fa-solid fa-eye-slash"></i>
                 </div>
                 <button type="submit" class="btn">Créer un compte</button>
