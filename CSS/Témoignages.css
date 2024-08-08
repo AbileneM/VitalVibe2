@@ -88,7 +88,7 @@ footer {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('../Images/contact.jpg');
+    background-image: url('../images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -225,7 +225,7 @@ img {
     header {
     padding: 10px;
     }
-    }
+}
 @media screen and (max-width: 992px) {
     header {
     padding: 20px;
@@ -233,11 +233,8 @@ img {
 }
              
 @media screen  and (max-width: 768px) {
-    main{
-        
-        margin:0 100px;
-    }
-    main, nav ul{
+    
+    main, nav ul, header{
         flex-basis: 50%;
         align-items: center;
         margin:0 40px;

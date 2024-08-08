@@ -9,23 +9,23 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url('../Images/image1.jpg') no-repeat center center/cover;
+    background: url('../images/image1.jpg') no-repeat center center/cover;
     animation: changeBackground 30s infinite;
 }
 
 
 @keyframes changeBackground {
     0% {
-        background: url('../Images/image1.jpg') no-repeat center center/cover;
+        background: url('../images/image1.jpg') no-repeat center center/cover;
     }
     33% {
-        background: url('../Images/image2.jpg') no-repeat center center/cover;
+        background: url('../images/image2.jpg') no-repeat center center/cover;
     }
     66% {
-        background: url('../Images/image3.jpg') no-repeat center center/cover;
+        background: url('../images/image3.jpg') no-repeat center center/cover;
     }
     100% {
-        background: url('../Images/image1.jpg') no-repeat center center/cover;
+        background: url('../images/image1.jpg') no-repeat center center/cover;
     }
 }
 
@@ -197,7 +197,7 @@ footer {
     color: black;
     text-align: center;
     padding: 20px 50px;
-    background-image: url('../Images/contact.jpg');
+    background-image: url('../images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -247,11 +247,12 @@ footer {
     color: #6f4e37;
 }
 /* FOOTER fin */
+
 @media screen and (max-width: 1200px) {
     header {
     padding: 10px;
     }
-    }
+}
 @media screen and (max-width: 992px) {
     header {
     padding: 20px;
@@ -259,11 +260,8 @@ footer {
 }
              
 @media screen  and (max-width: 768px) {
+    
     main{
-        
-        margin:0 100px;
-    }
-    main, nav ul{
         flex-basis: 50%;
         align-items: center;
         margin:0 40px;

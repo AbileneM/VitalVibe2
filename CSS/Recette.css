@@ -84,7 +84,7 @@ body{
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -299,7 +299,7 @@ footer {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('../Images/contact.jpg');
+    background-image: url('../images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -352,7 +352,7 @@ footer {
     header {
     padding: 10px;
     }
-    }
+}
 @media screen and (max-width: 992px) {
     header {
     padding: 20px;
@@ -360,11 +360,8 @@ footer {
 }
              
 @media screen  and (max-width: 768px) {
+    
     main{
-        
-        margin:0 100px;
-    }
-    main, nav ul{
         flex-basis: 50%;
         align-items: center;
         margin:0 40px;

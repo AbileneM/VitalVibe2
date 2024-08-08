@@ -18,7 +18,7 @@ small{
     margin-left: 20px;
 }
 body {
-    background: url('../Images/program.png');
+    background: url('../images/program.png');
     background-size: cover;
     background-position: center;
 }
@@ -241,7 +241,7 @@ footer {
     padding: 50px;
     margin-top: 20px;
     width: 100%;
-    background-image: url('../Images/contact.jpg');
+    background-image: url('../images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -294,7 +294,7 @@ footer {
     header {
     padding: 10px;
     }
-    }
+}
 @media screen and (max-width: 992px) {
     header {
     padding: 20px;
@@ -302,11 +302,8 @@ footer {
 }
              
 @media screen  and (max-width: 768px) {
+    
     main{
-        
-        margin:0 100px;
-    }
-    main, nav ul{
         flex-basis: 50%;
         align-items: center;
         margin:0 40px;
