@@ -43,9 +43,29 @@ Voici notre logo
 ## Auteurs
 
 - **thierno souleymane wague**  - [tswague2000]
+(1)	Créer_un_compte
+(2)	Se_connecter
+(3)	Foire_aux_Question
+
 - **Yasmine Benayiha** -  - [yasmine-ben-20]
+(1)	Accueil
+(2)	Recettes(Sous page)
+(a)	Recette fruit
+(b)	Recette_perte_poids
+(c)	Recette_prise_masse
+(d)	Recette_sansgluten
+(e)	Recette_sauce
+(f)	    Recette végétarienne
+(3) Quiz
+
 - **ABilene**  - [AbileneM]
+(4)	Témoignage
+(5)	A_propos_de_nous
+
 - **Salvator**  - [SalvatorMwesha]
+(1)	Abonnement
+(2)	IMC
+
 ## Remerciements
 
 - Merci à tous ceux qui ont contribué au projet.
