@@ -9,27 +9,22 @@ a:hover {
     color: #6f4e37; /* Couleur de survol, si nécessaire */
 }
 
-/* HEADER début */
-.container_header {
-    max-width: 1700px;
-    margin: 0 auto;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 0 15px;
-}
-
-.header-container {
-    margin: 0 15px;
-    margin-bottom: 10px;
-}
-
+/* HEADER ajustements */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: rgba(242, 242, 242, 0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
+    padding: 10px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
 }
 
 header .logo {
@@ -38,21 +33,22 @@ header .logo {
 }
 
 header .logo-image {
-    height: 50px;
+    height: 40px;
     margin-right: 10px;
 }
 
 header .vital {
     color: #6f4e37;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 header .vibe {
     color: #2e8b57;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 }
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -61,7 +57,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 nav ul li a {
@@ -72,7 +68,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #6f4e37;
+    color: #2e8b57;
 }
 /* HEADER fin */
 
@@ -85,37 +81,12 @@ body{
     padding: 0;
     background-color: #fafafa;
     color: #333;
-    
 }
 
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.header-container, .container-footer {
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.header-container nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.header-container nav ul li {
-    margin: 0 15px;
-}
-
-.header-container nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .breadcrumb {
@@ -339,8 +310,6 @@ footer {
     font-size: 16px;
     color:black;
 }
- 
- 
  
 .contact {
     display: flex;
