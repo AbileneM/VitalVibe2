@@ -37,10 +37,10 @@ Voici notre logo
 
 ## Auteurs
 
-- **thierno souleymane wague**  - [tswague2000]()
-- **Yasmine Benayiha** - *Contributeur* - []()
-- **ABilene**  - [AbileneM]()
-- - **Salvator**  - []()
+- **thierno souleymane wague**  - [tswague2000]
+- **Yasmine Benayiha** -  - [yasmine-ben-20]
+- **ABilene**  - [AbileneM]
+- **Salvator**  - [SalvatorMwesha]
 ## Remerciements
 
 - Merci à tous ceux qui ont contribué au projet.
