@@ -16,34 +16,27 @@ body{
 
 @keyframes changeBackground {
     0% {
-        background: url('../images/image1.jpg') no-repeat center center/cover;
+        background: url('../images/jus.jpg') no-repeat center center/cover;
     }
     33% {
-        background: url('../images/image2.jpg') no-repeat center center/cover;
+        background: url('../images/sorbet.jpg') no-repeat center center/cover;
     }
     66% {
-        background: url('../images/image3.jpg') no-repeat center center/cover;
+        background: url('../images/brochettes.jpg') no-repeat center center/cover;
     }
     100% {
-        background: url('../images/image1.jpg') no-repeat center center/cover;
+        background: url('../images/quinoa\ bowl.jpg') no-repeat center center/cover;
     }
 }
 
-/* HEADER début */
-.header-container {
-    margin: 0px;
-    margin-bottom: 10px;
-    
-}
-
+/* HEADER ajustements */
 header {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(242, 242, 242, 0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px 15px;
+    padding: 10px 30px;
     width: 100%;
     box-sizing: border-box;
     position: fixed;
@@ -52,7 +45,6 @@ header {
     right: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
-    height: 40px;
 }
 
 header .logo {
@@ -98,8 +90,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #2e8b57;
 }
-
-/*  HEADER fin */
 
 /* Ajout d'un espacement entre le header et le contenu */
 .quiz-container {
