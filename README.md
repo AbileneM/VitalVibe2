@@ -10,6 +10,8 @@ Voici notre logo
 ## Fonctionnalités
 
 - Recommandations de recettes avec catégories.
+- ![image](https://github.com/user-attachments/assets/c186580a-e8d0-4347-bd3e-5c52ee606400)
+
 - calcul de masse corporelle avec le IMC
 - Quizz de jeu
 - 
