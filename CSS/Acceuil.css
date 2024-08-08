@@ -15,7 +15,6 @@ body{
     padding: 0 15px;
 }
 
-<<<<<<< HEAD
 /* HEADER début */
 .header-container {
     margin: 0 15px;
@@ -23,9 +22,6 @@ body{
     
 }
 
-=======
-/* HEADER ajustements */
->>>>>>> 725cdee806a3878d4ffd019a323fd368355837e8
 header {
     
     display: flex;

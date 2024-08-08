@@ -9,10 +9,6 @@ body{
     
 }
 
-<<<<<<< HEAD
-=======
-/* HEADER ajustements */
->>>>>>> 725cdee806a3878d4ffd019a323fd368355837e8
 header {
     display: flex;
     justify-content: space-between;
@@ -28,10 +24,7 @@ header {
     right: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
-<<<<<<< HEAD
     
-=======
->>>>>>> 725cdee806a3878d4ffd019a323fd368355837e8
 }
 
 header .logo {
