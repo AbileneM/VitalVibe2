@@ -6,8 +6,6 @@ body{
     padding: 0;
     background-color: #fafafa;
     color: #333;
-<<<<<<< HEAD
-=======
     
 }
 .text-success{
@@ -17,7 +15,6 @@ body{
     color: red;
 }
 body {
->>>>>>> cacee77824a94d2d7a625c1fdf03d74974d4b62b
     background: url('../Images/program.png');
     background-size: cover;
     background-position: center;
