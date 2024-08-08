@@ -15,8 +15,15 @@ body{
     padding: 0 15px;
 }
 
-/* HEADER ajustements */
+/* HEADER début */
+.header-container {
+    margin: 0 15px;
+    margin-bottom: 10px;
+    
+}
+
 header {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;

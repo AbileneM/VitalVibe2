@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     background: url('../Images/image1.jpg') no-repeat center center/cover;
-    animation: changeBackground 30s infinite;   
+    animation: changeBackground 30s infinite;
 }
 
 
