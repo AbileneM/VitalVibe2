@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-* {
+body{
     margin: 0;
+    font-family: "lato", "Open Sans", sans-serif;
     padding: 0;
-    font-family: "open sans", sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    
 }
 body {
-    background: url('./images/Design\ sans\ titre.png')no-repeat;
+    background: url('../Images/Design\ sans\ titre.png')no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -213,7 +216,7 @@ footer {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('images/contact.jpg');
+    background-image: url('../Images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -265,3 +268,28 @@ footer {
 }
 
 /* FOOTER fin */
+@media screen and (max-width: 1200px) {
+    header {
+    padding: 10px;
+    }
+    }
+@media screen and (max-width: 992px) {
+    header {
+    padding: 20px;
+    }
+}
+             
+@media screen  and (max-width: 768px) {
+    main{
+        
+        margin:0 100px;
+    }
+    main, nav ul{
+        flex-basis: 50%;
+        align-items: center;
+        margin:0 40px;
+    }
+    header {
+        padding: 30px;
+    }
+}

@@ -209,7 +209,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 50px;
     margin-top: 20px;
-    background-image: url('images/contact.jpg');
+    background-image: url('../Images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -253,4 +253,28 @@ nav ul li a:hover {
 }
 
 /* FOOTER fin */
-
+@media screen and (max-width: 1200px) {
+    header {
+    padding: 10px;
+    }
+    }
+@media screen and (max-width: 992px) {
+    header {
+    padding: 20px;
+    }
+}
+             
+@media screen  and (max-width: 768px) {
+    main{
+        
+        margin:0 100px;
+    }
+    main, nav ul{
+        flex-basis: 50%;
+        align-items: center;
+        margin:0 40px;
+    }
+    header {
+        padding: 30px;
+    }
+}
