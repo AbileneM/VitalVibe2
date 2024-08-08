@@ -18,13 +18,21 @@ function calculateIMC() {
 
     // Valider le poids
     if (isNaN(weight) || weight <= 0) {
-        showMessage('Veuillez entrer un poids valide.', 'error');
+        if (weight <= 0) {
+            showMessage('Le poids ne peut pas être négatif ou égal à zéro.', 'error');
+        } else {
+            showMessage('Veuillez entrer un poids valide.', 'error');
+        }
         isValid = false;
     }
 
     // Valider la taille
     if (isNaN(height) || height <= 0) {
-        showMessage('Veuillez entrer une taille valide.', 'error');
+        if (height <= 0) {
+            showMessage('La taille ne peut pas être négative ou égale à zéro.', 'error');
+        } else {
+            showMessage('Veuillez entrer une taille valide.', 'error');
+        }
         isValid = false;
     }
 
