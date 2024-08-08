@@ -11,12 +11,12 @@ body{
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 px;
 }
  
 /* HEADER début */
 .header-container {
-    margin: 0 5px;
+    margin: 0 px;
     margin-bottom: 10px;
     max-width: 1900px;
 }
@@ -257,6 +257,7 @@ nav ul li a:hover {
 img{
     max-width: 100%;
 }
+
 @media screen and (max-width: 1200px) {
     header {
     padding: 10px;

@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&display=swap');
 
-body{
+body {
     margin: 0;
-    font-family: "lato", "Open Sans", sans-serif;
+    font-family: "Lato", "Open Sans", sans-serif;
     padding: 0;
     background-color: #fafafa;
     color: #333;
-    
 }
-.text-danger{
+
+.text-danger {
     color: red;
 }
-.text-success{
+
+.text-success {
     color: #2e8b57;
 }
-small{
+
+small {
     display: block;
     margin-left: 25px;
 }
 
 body {
-    background: url('../images/Design\ sans\ titre.png')no-repeat;
+    background: url('../images/seconnecter.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -92,6 +94,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #2e8b57;
 }
+
 /*  HEADER fin */
 
 main {
@@ -100,7 +103,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 0;
+    margin-top: 50px;
     padding: 10px 10px 20px 20px;
 }
 
@@ -113,7 +116,7 @@ form {
 .wrapper {
     width: 600px;
     height: 650px;
-    background: #f2f2f2;
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
     border-radius: 10px;
 }
@@ -124,13 +127,11 @@ form {
 }
 
 .wrapper .input-box {
-    
     width: 100%;
     height: 50px;
     margin-top: 20px;
     position: relative;
 }
-
 
 .input-box input {
     width: 90%;
@@ -182,19 +183,25 @@ form {
     max-width: 500px;
 }
 
+/* Optimisation du bouton de connexion */
 .wrapper .btn {
     width: 93%;
-    height: 45px;
+    height: 50px; /* Augmente la hauteur pour un meilleur confort */
     margin-top: 20px;
-    background-color: #f2f2f2;
+    background-color: #2e8b57; /* Vert pour le bouton */
     border: none;
     outline: none;
     border-radius: 40px;
-    box-shadow: 0 0 10px rgb(0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     font-size: 16px;
     color: #333;
-    font-weight: 600px;
+    font-weight: 600;
+    transition: background-color 0.3s; /* Transition fluide pour le changement de couleur */
+}
+
+.wrapper .btn:hover {
+    background-color: #6f4e37; /* Marron pour l'effet de survol */
 }
 
 .wrapper p {
@@ -223,7 +230,6 @@ form {
     text-decoration: underline;
 }
 
-
 /* FOOTER début */
 footer {
     background-color: #333;
@@ -240,10 +246,8 @@ footer {
 .container-footer p {
     margin: 0;
     font-size: 16px;
-    color:black;
+    color: black;
 }
-
-
 
 .contact {
     display: flex;
@@ -283,24 +287,26 @@ footer {
 }
 
 /* FOOTER fin */
+
 @media screen and (max-width: 1200px) {
     header {
-    padding: 10px;
+        padding: 10px;
     }
 }
+
 @media screen and (max-width: 992px) {
     header {
-    padding: 20px;
+        padding: 20px;
     }
 }
-             
-@media screen  and (max-width: 768px) {
-    
-    main{
+
+@media screen and (max-width: 768px) {
+    main {
         flex-basis: 50%;
         align-items: center;
-        margin:0 40px;
+        margin: 0 40px;
     }
+
     header {
         padding: 30px;
     }
