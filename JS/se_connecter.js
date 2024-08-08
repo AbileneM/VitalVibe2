@@ -61,7 +61,7 @@ const validePassword = function (inputPassword){
     }
     // mot de passe valide
     else{
-        messsage = "mot de passe valide"
+        message = "mot de passe valide"
         valide = true;
     }
     // affichage  du text d'erreur ou de validation
