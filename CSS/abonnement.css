@@ -8,10 +8,10 @@ body{
     color: #333;
     
 }
-
 /* HEADER début */
 .header-container {
-    margin: 0 15px;
+    margin: 0 ;
+    margin-right:8px;
     margin-bottom: 10px;
 }
 
@@ -65,7 +65,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #6f4e37;
+    color:#2e8b57;
 }
 
 /*  HEADER fin */
